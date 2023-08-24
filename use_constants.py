@@ -1,5 +1,9 @@
-
-
+"""
+Program: use_constants.py
+Author: Cody Kelderman
+Last date modified: 08/23/23
+The purpose of this program is to take different variables and present them as a unified string.
+"""
 
 # get variable value from constant.py (this proved troublesome with simply the 'import' command)
 from constant import PRICE_OF_HATS
@@ -8,7 +12,6 @@ from constant import PRICE_OF_HATS
 quantity = 2
 item = "hat"
 size = 7.0
-
 
 # display in terminal
 print(type(quantity))
